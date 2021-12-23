@@ -20,6 +20,10 @@ corepack enable
 - Yarn setup is much more complicated and uses non-standard config; once you yarn, you are kind of locked in
 - Yarn has a slight syntactic benefit in being easy to say and does not require "run" to run scripts, just `yarn whatever`
 
+_Why not just keep Yarn 1?_
+
+[Lots of reasons](https://yarnpkg.com/getting-started/qa#why-should-you-upgrade-to-yarn-modern), but the short version is: Yarn 1 is now in maintenance mode and will not be receiving any new updates. An upgrade is inevitable and Node 16 is a great time to do it.
+
 ## Project Setup
 
 Only done once in a new project or when switching package managers
